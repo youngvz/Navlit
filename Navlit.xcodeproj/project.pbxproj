@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		03B805831CF1BC9F00E82A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B805821CF1BC9F00E82A2E /* AppDelegate.swift */; };
-		03B805851CF1BC9F00E82A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B805841CF1BC9F00E82A2E /* ViewController.swift */; };
+		03B805851CF1BC9F00E82A2E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B805841CF1BC9F00E82A2E /* LogInViewController.swift */; };
 		03B805881CF1BC9F00E82A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B805861CF1BC9F00E82A2E /* Main.storyboard */; };
 		03B8058B1CF1BC9F00E82A2E /* Navlit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03B805891CF1BC9F00E82A2E /* Navlit.xcdatamodeld */; };
 		03B8058D1CF1BC9F00E82A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B8058C1CF1BC9F00E82A2E /* Assets.xcassets */; };
 		03B805901CF1BC9F00E82A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B8058E1CF1BC9F00E82A2E /* LaunchScreen.storyboard */; };
 		03B8059B1CF1BC9F00E82A2E /* NavlitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B8059A1CF1BC9F00E82A2E /* NavlitTests.swift */; };
 		03B805A61CF1BCA000E82A2E /* NavlitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B805A51CF1BCA000E82A2E /* NavlitUITests.swift */; };
+		03B805B41CF2697D00E82A2E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B805B31CF2697D00E82A2E /* ForgotPasswordViewController.swift */; };
+		03B805B61CF2699800E82A2E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B805B51CF2699800E82A2E /* RegisterViewController.swift */; };
+		03B805B81CF2878F00E82A2E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B805B71CF2878F00E82A2E /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		03B8057F1CF1BC9F00E82A2E /* Navlit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navlit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B805821CF1BC9F00E82A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03B805841CF1BC9F00E82A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03B805841CF1BC9F00E82A2E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		03B805871CF1BC9F00E82A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03B8058A1CF1BC9F00E82A2E /* Navlit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navlit.xcdatamodel; sourceTree = "<group>"; };
 		03B8058C1CF1BC9F00E82A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		03B805A11CF1BCA000E82A2E /* NavlitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavlitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B805A51CF1BCA000E82A2E /* NavlitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavlitUITests.swift; sourceTree = "<group>"; };
 		03B805A71CF1BCA000E82A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B805B31CF2697D00E82A2E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		03B805B51CF2699800E82A2E /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		03B805B71CF2878F00E82A2E /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				03B805821CF1BC9F00E82A2E /* AppDelegate.swift */,
-				03B805841CF1BC9F00E82A2E /* ViewController.swift */,
+				03B805841CF1BC9F00E82A2E /* LogInViewController.swift */,
+				03B805B71CF2878F00E82A2E /* CalendarViewController.swift */,
+				03B805B51CF2699800E82A2E /* RegisterViewController.swift */,
+				03B805B31CF2697D00E82A2E /* ForgotPasswordViewController.swift */,
 				03B805861CF1BC9F00E82A2E /* Main.storyboard */,
 				03B8058C1CF1BC9F00E82A2E /* Assets.xcassets */,
 				03B8058E1CF1BC9F00E82A2E /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B805B81CF2878F00E82A2E /* CalendarViewController.swift in Sources */,
+				03B805B41CF2697D00E82A2E /* ForgotPasswordViewController.swift in Sources */,
+				03B805B61CF2699800E82A2E /* RegisterViewController.swift in Sources */,
 				03B8058B1CF1BC9F00E82A2E /* Navlit.xcdatamodeld in Sources */,
-				03B805851CF1BC9F00E82A2E /* ViewController.swift in Sources */,
+				03B805851CF1BC9F00E82A2E /* LogInViewController.swift in Sources */,
 				03B805831CF1BC9F00E82A2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +500,7 @@
 				03B805AC1CF1BCA000E82A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03B805AD1CF1BCA000E82A2E /* Build configuration list for PBXNativeTarget "NavlitTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				03B805AF1CF1BCA000E82A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03B805B01CF1BCA000E82A2E /* Build configuration list for PBXNativeTarget "NavlitUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				03B805B21CF1BCA000E82A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
