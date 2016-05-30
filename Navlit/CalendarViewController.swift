@@ -12,7 +12,13 @@ class CalendarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let orangecolor = UIColor(red: 243/255.0, green: 80/255.0, blue: 72/255.0, alpha: 1.0)
+        navigationController!.navigationBar.barTintColor = UIColor.darkGrayColor()
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: orangecolor]
+        navigationController?.navigationBar.tintColor = orangecolor
+        tabBarController!.tabBar.barTintColor = UIColor.darkGrayColor()
+        tabBarController?.tabBar.tintColor = orangecolor
         // Do any additional setup after loading the view.
     }
 
@@ -22,9 +28,11 @@ class CalendarViewController: UIViewController {
     }
     
 
-    @IBAction func searchGuidesButtonTapped(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func guideButton(sender: AnyObject) {
+        //self.dismissViewControllerAnimated(true, completion: nil)
+        //self.performSegueWithIdentifier("showGuide", sender: nil)
     }
+   
     /*
     // MARK: - Navigation
 

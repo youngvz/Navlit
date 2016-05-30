@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class RegisterViewController: UIViewController, UITextFieldDelegate {
 
@@ -51,6 +52,18 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
             return;
         }
         //Store data
+        
+        Alamofire.request(.POST, "https://navlittest.azurewebsites.net/api/auth/register", parameters: ["confirmpassword": userConfirmPassword!,"email":userEmailAddress!, "firstname": userFirstName!, "lastname": userLastName!, "password": userPassword!]).validate()
+            .responseJSON { response in
+                print(response.request)  // original URL request
+                print(response.response) // URL response
+                print(response.data)     // server data
+                print(response.result)   // result of response serialization
+                
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+        }
         
         //Display alert message with confirmation
         let myAlert = UIAlertController(title: "Success", message: "A confirmation email has been sent to your email. Please Log In!", preferredStyle: UIAlertControllerStyle.Alert)
